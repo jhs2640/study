@@ -80,5 +80,5 @@ console.log(members.findIndex((x) => x === 'D'));
 
 // reduce((변수) => 연산, 시작값) : value 값을 순회하여 연산 실행함
 console.log(members.reduce((p,n) => p + n.length, 0));
-
+// test
 
