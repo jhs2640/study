@@ -58,7 +58,7 @@ members.sort((a, b) => {
 });
 console.log(members);
 
-// map() : vale값을 순회하여 원배열을 변경한 배열값 반환
+// map() : value값을 순회하여 원배열을 변경한 배열값 반환
 console.log(members.map((x) => `멤버:${x}`));
 console.log(members.map((x) => {
     if(x === 'D'){
@@ -80,5 +80,11 @@ console.log(members.findIndex((x) => x === 'D'));
 
 // reduce((변수) => 연산, 시작값) : value 값을 순회하여 연산 실행함
 console.log(members.reduce((p,n) => p + n.length, 0));
+
+let count = [5,4,8,4,1];
+console.log(count.reduce((p,c) => p+c, 0));
+
+
+
 
 
